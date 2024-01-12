@@ -1,0 +1,14 @@
+C:\Users\spect\source\repos\FinalFantasyXI\FinalFantasyXI\bin\Debug\net6.0\FinalFantasyXI.exe
+C:\Users\spect\source\repos\FinalFantasyXI\FinalFantasyXI\bin\Debug\net6.0\FinalFantasyXI.deps.json
+C:\Users\spect\source\repos\FinalFantasyXI\FinalFantasyXI\bin\Debug\net6.0\FinalFantasyXI.runtimeconfig.json
+C:\Users\spect\source\repos\FinalFantasyXI\FinalFantasyXI\bin\Debug\net6.0\FinalFantasyXI.dll
+C:\Users\spect\source\repos\FinalFantasyXI\FinalFantasyXI\bin\Debug\net6.0\FinalFantasyXI.pdb
+C:\Users\spect\source\repos\FinalFantasyXI\FinalFantasyXI\obj\Debug\net6.0\FinalFantasyXI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spect\source\repos\FinalFantasyXI\FinalFantasyXI\obj\Debug\net6.0\FinalFantasyXI.AssemblyInfoInputs.cache
+C:\Users\spect\source\repos\FinalFantasyXI\FinalFantasyXI\obj\Debug\net6.0\FinalFantasyXI.AssemblyInfo.cs
+C:\Users\spect\source\repos\FinalFantasyXI\FinalFantasyXI\obj\Debug\net6.0\FinalFantasyXI.csproj.CoreCompileInputs.cache
+C:\Users\spect\source\repos\FinalFantasyXI\FinalFantasyXI\obj\Debug\net6.0\FinalFantasyXI.dll
+C:\Users\spect\source\repos\FinalFantasyXI\FinalFantasyXI\obj\Debug\net6.0\refint\FinalFantasyXI.dll
+C:\Users\spect\source\repos\FinalFantasyXI\FinalFantasyXI\obj\Debug\net6.0\FinalFantasyXI.pdb
+C:\Users\spect\source\repos\FinalFantasyXI\FinalFantasyXI\obj\Debug\net6.0\FinalFantasyXI.genruntimeconfig.cache
+C:\Users\spect\source\repos\FinalFantasyXI\FinalFantasyXI\obj\Debug\net6.0\ref\FinalFantasyXI.dll

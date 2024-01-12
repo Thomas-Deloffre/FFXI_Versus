@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Char_list" targetNamespace="http://tempuri.org/Char_list.xsd" xmlns:mstns="http://tempuri.org/Char_list.xsd" xmlns="http://tempuri.org/Char_list.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Char_list" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="Char_list" msprop:Generator_DataSetName="Char_list">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Characters" msprop:Generator_RowEvHandlerName="CharactersRowChangeEventHandler" msprop:Generator_RowDeletedName="CharactersRowDeleted" msprop:Generator_RowDeletingName="CharactersRowDeleting" msprop:Generator_RowEvArgName="CharactersRowChangeEvent" msprop:Generator_TablePropName="Characters" msprop:Generator_RowChangedName="CharactersRowChanged" msprop:Generator_RowChangingName="CharactersRowChanging" msprop:Generator_TableClassName="CharactersDataTable" msprop:Generator_RowClassName="CharactersRow" msprop:Generator_TableVarName="tableCharacters" msprop:Generator_UserTableName="Characters">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CharId" msprop:Generator_ColumnPropNameInRow="CharId" msprop:Generator_ColumnPropNameInTable="CharIdColumn" msprop:Generator_ColumnVarNameInTable="columnCharId" msprop:Generator_UserColumnName="CharId" type="xs:string" />
+              <xs:element name="JobId" msprop:Generator_ColumnPropNameInRow="JobId" msprop:Generator_ColumnPropNameInTable="JobIdColumn" msprop:Generator_ColumnVarNameInTable="columnJobId" msprop:Generator_UserColumnName="JobId" type="xs:int" minOccurs="0" />
+              <xs:element name="CharName" msprop:Generator_ColumnPropNameInRow="CharName" msprop:Generator_ColumnPropNameInTable="CharNameColumn" msprop:Generator_ColumnVarNameInTable="columnCharName" msprop:Generator_UserColumnName="CharName" type="xs:string" minOccurs="0" />
+              <xs:element name="RaceName" msprop:Generator_ColumnPropNameInRow="RaceName" msprop:Generator_ColumnPropNameInTable="RaceNameColumn" msprop:Generator_ColumnVarNameInTable="columnRaceName" msprop:Generator_UserColumnName="RaceName" type="xs:string" minOccurs="0" />
+              <xs:element name="Background" msprop:Generator_ColumnPropNameInRow="Background" msprop:Generator_ColumnPropNameInTable="BackgroundColumn" msprop:Generator_ColumnVarNameInTable="columnBackground" msprop:Generator_UserColumnName="Background" type="xs:string" minOccurs="0" />
+              <xs:element name="Exclamation" msprop:Generator_ColumnPropNameInRow="Exclamation" msprop:Generator_ColumnPropNameInTable="ExclamationColumn" msprop:Generator_ColumnVarNameInTable="columnExclamation" msprop:Generator_UserColumnName="Exclamation" type="xs:string" minOccurs="0" />
+              <xs:element name="Age" msprop:Generator_ColumnPropNameInRow="Age" msprop:Generator_ColumnPropNameInTable="AgeColumn" msprop:Generator_ColumnVarNameInTable="columnAge" msprop:Generator_UserColumnName="Age" type="xs:string" minOccurs="0" />
+              <xs:element name="Relatives" msprop:Generator_ColumnPropNameInRow="Relatives" msprop:Generator_ColumnPropNameInTable="RelativesColumn" msprop:Generator_ColumnVarNameInTable="columnRelatives" msprop:Generator_UserColumnName="Relatives" type="xs:string" minOccurs="0" />
+              <xs:element name="Job" msprop:Generator_ColumnPropNameInRow="Job" msprop:Generator_ColumnPropNameInTable="JobColumn" msprop:Generator_ColumnVarNameInTable="columnJob" msprop:Generator_UserColumnName="Job" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Jobs" msprop:Generator_RowEvHandlerName="JobsRowChangeEventHandler" msprop:Generator_RowDeletedName="JobsRowDeleted" msprop:Generator_RowDeletingName="JobsRowDeleting" msprop:Generator_RowEvArgName="JobsRowChangeEvent" msprop:Generator_TablePropName="Jobs" msprop:Generator_RowChangedName="JobsRowChanged" msprop:Generator_RowChangingName="JobsRowChanging" msprop:Generator_TableClassName="JobsDataTable" msprop:Generator_RowClassName="JobsRow" msprop:Generator_TableVarName="tableJobs" msprop:Generator_UserTableName="Jobs">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="JobId" msprop:Generator_ColumnPropNameInRow="JobId" msprop:Generator_ColumnPropNameInTable="JobIdColumn" msprop:Generator_ColumnVarNameInTable="columnJobId" msprop:Generator_UserColumnName="JobId" type="xs:int" />
+              <xs:element name="JobName" msprop:Generator_ColumnPropNameInRow="JobName" msprop:Generator_ColumnPropNameInTable="JobNameColumn" msprop:Generator_ColumnVarNameInTable="columnJobName" msprop:Generator_UserColumnName="JobName" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_UserColumnName="Description" type="xs:string" minOccurs="0" />
+              <xs:element name="Passives" msprop:Generator_ColumnPropNameInRow="Passives" msprop:Generator_ColumnPropNameInTable="PassivesColumn" msprop:Generator_ColumnVarNameInTable="columnPassives" msprop:Generator_UserColumnName="Passives" type="xs:string" minOccurs="0" />
+              <xs:element name="Ultimate" msprop:Generator_ColumnPropNameInRow="Ultimate" msprop:Generator_ColumnPropNameInTable="UltimateColumn" msprop:Generator_ColumnVarNameInTable="columnUltimate" msprop:Generator_UserColumnName="Ultimate" type="xs:string" minOccurs="0" />
+              <xs:element name="UltimateValue" msprop:Generator_ColumnPropNameInRow="UltimateValue" msprop:Generator_ColumnPropNameInTable="UltimateValueColumn" msprop:Generator_ColumnVarNameInTable="columnUltimateValue" msprop:Generator_UserColumnName="UltimateValue" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="CharactersKey" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Characters" />
+      <xs:field xpath="mstns:CharId" />
+    </xs:unique>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Jobs" />
+      <xs:field xpath="mstns:JobId" />
+    </xs:unique>
+    <xs:keyref name="FK_Jobs_Characters" refer="Constraint1" msdata:ConstraintOnly="true">
+      <xs:selector xpath=".//mstns:Characters" />
+      <xs:field xpath="mstns:JobId" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

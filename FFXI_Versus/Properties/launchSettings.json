@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "FFXI_Versus": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "MONGODB_URI": "mongodb+srv://Thomas:Sphere211@cluster0.xnted.mongodb.net/?retryWrites=true&w=majority"
+      }
+    }
+  }
+}
