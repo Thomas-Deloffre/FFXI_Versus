@@ -349,9 +349,9 @@ namespace FFXI_Versus
         {
             var mpUsed = 0;
 
-            int remainingMp;
+            int remainingMp = fighter.Mp - mpUsed;
 
-            return remainingMp = fighter.Mp - mpUsed;
+            return remainingMp;
         }
 
         private bool CheckMpPool(Fighter fighter)
